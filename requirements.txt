@@ -1,0 +1,24 @@
+# Core Data & Math
+numpy
+pandas
+scipy
+
+# Image Processing
+opencv-python
+scikit-image
+Pillow
+
+# OCR Tools
+paddleocr
+paddlepaddle
+easyocr
+
+# Deep Learning & Transformers
+torch
+torchvision
+transformers==4.44.2
+datasets
+evaluate
+accelerate
+jiwer
+tensorboard

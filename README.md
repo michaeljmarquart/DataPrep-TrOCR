@@ -1,4 +1,4 @@
-<div align="center">
+<div id="readme-top" align="center">
     <img src="assets/icon.png" alt="Icon">
     <h3>DataPrep-TrOCR</h3>
     <p>
@@ -35,7 +35,7 @@ line noise, and spatial ambiguity.
 
 This project implements a two-stage solution:
 
-1. **Dataset Construction Pipeline**
+1. **Dataset Generation Pipeline**
    A computer-vision workflow that converts full-page, grid-based documents into
    normalized, single-line text images suitable for OCR model training.
 
@@ -57,8 +57,8 @@ To get a local copy up and running, follow these steps.
 1.  Clone the repository
 
     ```bash
-    git clone https://github.com/username/dataprep-trocr.git
-    cd dataprep-trocr
+    git clone https://github.com/michaeljmarquart/DataPrep-TrOCR.git
+    cd DataPrep-TrOCR
     ```
 
 2.  Create and activate a virtual environment
@@ -147,7 +147,7 @@ The fine-tuned model achieves strong exact-match accuracy on dense,
 typewritten deed records and generalizes well across pages with
 varying layout and degradation.
 
-[![Model on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-md.svg)](https://huggingface.co/YOUR_USERNAME/YOUR_MODEL)
+[![Model on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-lg.svg)](https://huggingface.co/m-mjm/trocr-finetuned-typewritten)
 
 ### Built With
 
@@ -187,14 +187,14 @@ verbatim in the dataset construction notebook.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
+Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contact
 
-My Full Name- [GitHub](https://github.com/username)
+Michael Marquart - [@michaeljmarquart](https://github.com/michaeljmarquart) - [LinkedIn](https://www.linkedin.com/in/michael-marquart)
 
-Project Link: [https://github.com/username/dataprep-trocr](https://github.com/username/dataprep-trocr)
+Project Link: [https://github.com/michaeljmarquart/DataPrep-TrOCR](https://github.com/michaeljmarquart/DataPrep-TrOCR)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

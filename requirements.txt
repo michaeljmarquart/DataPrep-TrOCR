@@ -1,3 +1,6 @@
+# torch / torchvision and paddlepaddle are NOT listed here intentionally.
+# They must be installed manually, please see the README instructions.
+
 # Core Data & Math
 numpy
 pandas
@@ -10,15 +13,15 @@ Pillow
 
 # OCR Tools
 paddleocr
-paddlepaddle
 easyocr
 
 # Deep Learning & Transformers
-torch
-torchvision
 transformers==4.44.2
 datasets
 evaluate
 accelerate
 jiwer
 tensorboard
+
+# Jupyter notebook
+ipykernel
